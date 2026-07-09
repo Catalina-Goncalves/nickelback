@@ -1,0 +1,465 @@
+*{
+    box-sizing: border-box;
+}
+
+.Menu{
+    margin-top:10px;
+    background-color: rgb(137, 2, 2);
+    font-family: GroovedPersonalUseRegular-9Y350;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 30px;
+}
+
+.dropdown-menu{
+    background-color: rgb(137, 2, 2);
+    color:white;
+    border:none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+    padding-right:30px;
+}
+
+.nav-link {
+    padding:0px;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color:white;
+    padding-left:-10
+}
+
+.navbar-light .navbar-nav .nav-link.active:hover{
+    color:black;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+
+.dropdown-item {
+    color:white;
+}
+
+.dropdown-item:hover {
+    color:black;
+    background-color: rgba(190, 41, 41, 0.4);
+}
+
+.navbar-collapse {
+    background-color: rgb(137, 2, 2);
+}
+
+.navbar-toggler:focus {
+    color:rgb(137, 2, 2);
+}
+
+.fa-magnifying-glass{
+    color:white;
+}
+
+.fa-magnifying-glass:hover{
+    color:black;
+}
+
+.Button{
+    background-color: rgb(137, 2, 2);
+    border:none;
+    color:white;
+    font-family: GroovedPersonalUseRegular-9Y350;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-right: 30px;
+}
+
+.Button:hover{
+    color:black;
+    cursor: inherit;
+}
+
+h1{
+    font-size:20px;
+}
+
+#Link_1{
+    padding-top: 10px;
+}
+
+.Lista:hover{
+    color:black;
+    background-color: rgb(137, 2, 2, 0.4);
+}
+
+.DropDown:hover .DropDown_List {
+    display: block;
+}
+
+.DropDown_List:hover{
+    background-color: rgb(137, 2, 2, 0.4);
+}
+
+#Home{
+    padding-left:15px;
+    color:black;
+}
+
+#Active{
+    color:black;
+}
+
+#Home_2{
+    padding-left:15px;
+}
+
+.Pesquisa{
+    float:right;
+    margin-right:15px;
+    padding-top:10px;
+}
+
+.Div_Logo{
+    margin-top: 70px;
+    text-align:center;
+}
+
+#Logo_Inicial{
+    margin-top:70px;
+}
+
+.Img-logo{
+    max-width: 35%;
+    height: auto;
+}
+
+#Logo{
+    text-align: center;
+    display: block;
+}
+
+#Texto-Logo{
+    margin-top:20px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: GroovedPersonalUseRegular-9Y350;
+    color:black;
+}
+
+.Span1{
+    color:rgb(137, 2, 2);
+    font-weight: bolder;
+}
+
+.Span2{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+a.Menu:hover{
+    color:black;
+}
+
+.Imagem_Inicial{
+    max-width:100%;
+    height:auto;
+    padding-bottom: 20px;
+}
+
+.col-sm-6{
+    padding:0px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.col-sm-3{
+    margin-bottom:20px;
+}
+
+.col-md-12{
+    margin-top:3px;
+}
+
+.col-6{
+    margin-top:20px;
+}
+
+.col-3{
+    margin-top:3px;
+}
+
+.btn-primary {
+    color: white;
+    background-color: black;
+    border-color: black;
+    font-family: GroovedPersonalUseRegular-9Y350;
+    font-size: 15px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(137, 2, 2);
+    border-color: rgb(137, 2, 2);
+}
+
+.Legenda{
+    background-color: rgb(137, 2, 2);
+    width:100%;
+    padding-bottom:4px;
+    margin-left: 0px;
+    margin-bottom:10px;
+    font-family: GroovedPersonalUseRegular-9Y350;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    color:white;
+}
+
+.Nome_Cabeçalho{
+    background-color: rgb(137, 2, 2);
+}
+
+.Membros_Banda{
+    margin-top:20px;
+}
+
+.Cabeçalho{
+    color:white;
+    font-family: GroovedPersonalUseRegular-9Y350;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.form-control{
+    font-family: GroovedPersonalUseRegular-9Y350;
+    font-style: italic;
+    font-size:12px;
+    color:rgb(83, 83, 83);
+}
+
+.Cabeçalho:hover{
+    color:black;
+}
+
+#Contacto_Header{
+    color:white;
+    font-family: GroovedPersonalUseRegular-9Y350;
+    font-size: 30px;
+}
+
+.Membro_Banda{
+    width: 100%;
+    display: inline-block;
+}
+
+.Descricao_Membros{
+    vertical-align: top;
+    display: inline-block;
+    padding-left:15px;
+    font-size: 15px;
+    font-family: GroovedPersonalUseRegular-9Y350;
+    text-align: justify;
+}
+
+.Descricao_Inicial{
+    margin-block-start: 0em;
+}
+
+#Banda_Titulo{
+    margin-top: 40px;
+    padding-top: 4px;
+    padding-left:15px;
+    background-color: rgb(137, 2, 2);
+    height:50px;
+    width:100%;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.Link_Membros{
+    width:24.7%;
+    padding-top: 30px;
+    display:inline-block;
+}
+
+.Membros{
+    width:100%;
+    height:auto;
+}
+
+.Fotos{
+    text-decoration: none;
+}
+
+.Legenda:hover{
+    color:black;
+}
+
+#Discografia_Titulo{
+    margin-top: 40px;
+    padding-top: 4px;
+    padding-left:15px;
+    background-color: rgb(137, 2, 2);
+    height:50px;
+    width:100%;
+    text-align: left;
+    margin-left: 0px;
+}
+
+#Disc{
+    margin-top:20px;
+}
+
+#Contacto_Header{
+    margin-top: 20px;;
+}
+
+#Contact{
+    margin-top:15px;
+}
+
+.Disc{
+    width:100%;
+    height: auto;
+}
+
+.Disc_Slide{
+    height:250px;
+    width: auto;
+}
+
+
+.Descricao_Album{
+    width:auto;
+    vertical-align: top;
+    display: inline-block;
+    padding-left:15px;
+    font-size: 15px;
+    font-family: GroovedPersonalUseRegular-9Y350;
+    text-align: justify;
+}
+
+.Coluna{
+    width:160px;
+    padding-left:15px;
+}
+
+.Linha{
+    padding-top: 10px;
+}
+
+.Ult_Col{
+    padding-right: 10px;
+}
+
+.Album{
+    text-decoration: none;
+    color:rgb(137, 2, 2);
+}
+
+.Album:hover{
+    color:black;
+}
+
+.Link_Discografia{
+    padding-top: 30px;
+    display:inline-block;
+}
+
+.Cartaz{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.Img_Cartaz{
+    width:80%;
+    padding:10px;
+}
+
+.Slide {
+    overflow: auto;
+    white-space: nowrap;
+    padding-right: 10px;
+  }
+
+  #Contact{
+    margin-top: 40px;
+    padding-top: 4px;
+    padding-left:15px;
+    background-color: rgb(137, 2, 2);
+    height:50px;
+    width:100%;
+    text-align: left;
+    margin-left: 0px;
+}
+  
+.Contact_Div{
+    width: 22%;
+    display: inline-block;
+    padding-left: 15px;
+    border-left: 2px solid rgb(137, 2, 2);
+    vertical-align: top;
+}
+
+#Morada{
+    border-left:none;
+}
+
+.Cabecalho{
+    font-family: GroovedPersonalUseRegular-9Y350;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.Conteudo{
+    font-family: GroovedPersonalUseRegular-9Y350;
+    font-style: italic;
+    font-size:12px;
+    color:black;
+}
+
+#Mailto{
+    text-decoration: none;
+}
+
+.Redes_Sociais{
+    color:black;
+    padding-right:17px;
+}
+
+.Contact_Mensagem{
+    width: 33%;
+    display: inline-block;
+    padding-left: 15px;
+    border-left: 2px solid rgb(137, 2, 2);
+}
+
+.Form_left{
+    width:150px;
+    display: inline;
+    color:rgb(184, 184, 184);
+    font-size: 10px;
+    font-family: GroovedPersonalUseRegular-9Y350;
+}
+
+.TextArea{
+    margin-top: 5px;
+    width:304px;
+    color:rgb(184, 184, 184);
+    font-size: 10px;
+    font-family: GroovedPersonalUseRegular-9Y350;
+}
+
+.Button_Form{
+    font-family: GroovedPersonalUseRegular-9Y350;
+    font-size: 10px;
+}
+
+.Dado_Contacto{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}

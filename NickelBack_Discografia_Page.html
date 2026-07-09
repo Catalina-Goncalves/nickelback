@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="HomePage de WebSite dedicado a Banda Canadiana NickelBack, incluido Historico da Banda, os membros da Banda, Discografia, Concertos, Contactos, com Recurso a HTML e CSS">
+        <meta name="author" content="Catalina Gonçalves">
+        <meta name="keywords" content="NickelBack, Banda, Discografia, Concertos, Contactos">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+        <title>NickelBack WebPage - Historico, Banda, Discografia, Concertos, Contactos</title>
+
+        <script src="https://kit.fontawesome.com/ccc0b67d15.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="CSS_File.css">
+        
+        <style>
+            @font-face {
+                font-family: GroovedPersonalUseRegular-9Y350;
+                src: url(Font_Rock/GroovedPersonalUseRegular-9Y350.ttf);
+                }
+        </style>
+
+    </head>
+
+    <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light Menu">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="NickelBack_Home_Page.html"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="NickelBack_Home_Page.html">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="NickelBack_Banda_Page.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          A Banda
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="NickelBack_Banda_Page.html" target="_blank">Chad Kroeger</a></li>
+                          <li><a class="dropdown-item" href="NickelBack_Banda_Page.html" target="_blank">Ryan Peake</a></li>
+                          <li><a class="dropdown-item" href="NickelBack_Banda_Page.html" target="_blank">Myke Kroeger</a></li>
+                          <li><a class="dropdown-item" href="NickelBack_Banda_Page.html" target="_blank">Daniel Adair</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="NickelBack_Discografia_Page.html" target="_blank">Discografia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="NickelBack_Concertos_Page.html" target="_blank">Concertos</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                      <button class="btn btn-outline-white" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+
+        <div class="container-fluid text-center" id="Logo_Inicial">
+            <div class="row" id="Logo">
+                <img src="Pictures/Nickelback-Logo.png" class="Img-logo" alt="Logo NickelBack" title="Logo NickelBack">
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="Disc" src="Pictures/Curb.png" alt="Capa Album Curb" title="Capa Album Curb">
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna Linha"> Lançamento: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Linha Ult_Col"> Quinze de Maio de mil novecentos e noventa e seis </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Spotify <i class="fa-brands fa-spotify"></i> Link: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://open.spotify.com/album/6sSecdLSapLvBqBnRQ2p7W" target="_blank"> Abrir Spotify </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Mais Informações: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://en.wikipedia.org/wiki/Curb_(album)" target="_blank"> Wikipedia </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="Descricao_Album Ult_Col"><span class="Span1">Curb</span> é o primeiro álbum de estúdio da banda de rock canadiana <span class="Span1">Nickelback</span>. Gravado no Turtle Recording Studios em Richmond, British Columbia, com o produtor Larry Anschell, foi originalmente lançado exclusivamente no Canadá pela FACTOR (Foundation Assisting Canadian Talent on Recordings) em quize de maio de mil novecentos e noventa e seis. Depois que <span class="Span1">Nickelback</span> assinou com a <span class="Span1">Roadrunner Records</span> em mil novecentos e noventa e nove, <span class="Span1">Curb</span> foi remasterizado e lançado internacionalmente em vinte e cinco de junho de dois mil e dois. No entanto, a edição remasterizada é controversa pela sua qualidade de áudio em comparação com a edição original, uma vez que a sua gama dinâmica foi significativamente reduzida e introduziu graves problemas de recorte em todo o álbum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="Disc" src="Pictures/The_State.png" alt="Capa Album The State" title="Capa Album The State">
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna Linha"> Lançamento: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Linha Ult_Col"> Um de Setembro de mil novecentos e noventa e oito </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Spotify <i class="fa-brands fa-spotify"></i> Link: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://open.spotify.com/album/3jl1TcvE91Mnu6zjKkklAb" target="_blank"> Abrir Spotify </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Mais Informações: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://en.wikipedia.org/wiki/The_State_(album)" target="_blank"> Wikipedia </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="Descricao_Album Ult_Col"><span class="Span1">The State</span> é o segundo álbum de estúdio da banda de rock canadiana <span class="Span1">Nickelback</span>. O primeiro single deste álbum foi <span class="Span1">"Leader of Men"</span>, seguido de <span class="Span1">"Old Enough"</span>, <span class="Span1">"Breathe"</span> e <span class="Span1">"Worthy to Say"</span>. O álbum teve uma posição de pico de número cento e trinta na Billboard duzentos. O álbum também teve uma posição de pico na Billboard Top Heatseekers Albums ocupando a posição número três no ano dois mil. O álbum <span class="Span1">foi o primeiro álbum da banda</span> a ser certificado como <span class="Span1">Ouro</span> tanto no Canadá como nos Estados Unidos. Mais tarde, foi <span class="Span1">Platina</span> no <span class="Span1">Canadá</span> em abril de dois mil e dois e depois Platina em dois mil e oito nos <span class="Span1">Estados Unidos</span>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="Disc" src="Pictures/Silver_Side_Up.jpeg" alt="Capa Album Silver Side Up" title="Capa Album Silver Side Up">
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna Linha"> Lançamento: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Linha Ult_Col"> Onze de Setembro de dois mil e vinte e um </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Spotify <i class="fa-brands fa-spotify"></i> Link: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://open.spotify.com/album/5fKL7vMTXvhR9tov8Kqt3u" target="_blank"> Abrir Spotify </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Mais Informações: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://en.wikipedia.org/wiki/Silver_Side_Up" target="_blank"> Wikipedia </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="Descricao_Album Ult_Col"><span class="Span1">Silver Side Up</span> é o terceiro álbum de estúdio da banda de rock canadiana <span class="Span1">Nickelback</span>. De acordo com a <span class="Span1">AllMusic</span>, <span class="Span1">Silver Side Up</span> continuou a tradição de <span class="Span1">Nickelback</span> de "<span class="Span2">rock sombrio de alta octanagem</span>" dos dois primeiros álbuns da banda. <span class="Span1">Alcançou o número um</span> no Canadá, Áustria, Irlanda, Nova Zelândia, e Reino Unido. O álbum <span class="Span1">foi certificado oito vezes Platina no Canadá</span>, <span class="Span1"> seis vezes Platina nos EUA</span>, e <span class="Span1"> três vezes Platina no Reino Unido</span>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="Disc" src="Pictures/The_Long_Road.jpeg" alt="Capa Album The Long Road" title="Capa Album The Long Road">
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna Linha"> Lançamento: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Linha Ult_Col"> Vinte e três de Setembro dois mil e três </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Spotify <i class="fa-brands fa-spotify"></i> Link: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://open.spotify.com/album/4fygErqiNgFUic5hU42Z3E" target="_blank"> Abrir Spotify </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Mais Informações: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://en.wikipedia.org/wiki/The_Long_Road" target="_blank"> Wikipedia </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="Descricao_Album Ult_Col"><span class="Span1">The Long Road</span> é o quarto álbum de estúdio da banda de rock canadiana <span class="Span1">Nickelback</span>. Gravado no famoso <span class="Span1">Greenhouse Studios</span> em Vancouver, British Columbia, <span class="Span2">é o último álbum da banda</span> com <span class="Span1">Ryan Vikedal</span> <span class="Span2">como baterista</span>, e apresenta uma notável mudança de estilo em direção a riffs de guitarra mais agressivos e a inclusão de um contrabaixo. O álbum é a primeira colaboração com o produtor <span class="Span1">Joey Moi</span>, que produziria todos os lançamentos da banda de dois mil e três a dois mil e doze.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="Disc" src="Pictures/All_The_Right_Reasons.jpg" alt="Capa Album All the Right Reasons" title="Capa Album All the Right Reasons">
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna Linha"> Lançamento: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Linha Ult_Col"> Quatro de Outubro de dois mil e cinco </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Spotify <i class="fa-brands fa-spotify"></i> Link: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://open.spotify.com/album/3eZd2XbhLyPcgbgcsLTZh3" target="_blank"> Abrir Spotify </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Mais Informações: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://en.wikipedia.org/wiki/All_the_Right_Reasons" target="_blank"> Wikipedia </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="Descricao_Album Ult_Col"><span class="Span1">All the Right Reasons</span> é o quinto álbum de estúdio da banda de rock canadiana <span class="Span1">Nickelback</span>, lançado pela <span class="Span1">Roadrunner Records</span>. É o <span class="Span2">primeiro álbum da banda com o antigo baterista</span> dos <span class="Span1">Three Doors Down</span>, <span class="Span1">Daniel Adair</span>, que substituiu <span class="Span1">Ryan Vikedal</span>. O álbum chegou ao topo da tabela de álbuns canadiana e da tabela de álbuns US Billboard Two Hundred e <span class="Span2">vendeu onze milhões de cópias em todo o mundo</span>. É o <span class="Span2">álbum mais vendido</span> do <span class="Span1">Nickelback</span> até à data, de acordo com as certificações da CRIA, da RIAA, da BPI e da ARIA. Foram lançados sete singles do álbum. <span class="Span1">All the Right Reasons</span> foi certificado <span class="Span1">diamante</span> pela RIAA em março de dois mil e dezasete, tornando-se <span class="Span1">um dos álbuns mais vendidos de todos os tempos nos EUA</span>. No <span class="Span1">Canadá</span>, <span class="Span1">All the Right Reasons</span> foi certificado <span class="Span1">sete vezes Platina</span> pela CRIA em março de dois mil e dez.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="Disc" src="Pictures/Dark_Horse.jpeg" alt="Capa Album Dark Horse" title="Capa Album Dark Horse">
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna Linha"> Lançamento: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Linha Ult_Col"> Dezasete de Novembro de dois mil e oito </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Spotify <i class="fa-brands fa-spotify"></i> Link: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://open.spotify.com/album/0GQ9AZBJSj109gmSdSrviC" target="_blank"> Abrir Spotify </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Mais Informações: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://en.wikipedia.org/wiki/Dark_Horse_(Nickelback_album)" target="_blank"> Wikipedia </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="Descricao_Album Ult_Col"><span class="Span1">Dark Horse</span> é o sexto álbum de estúdio da banda de rock canadiana <span class="Span1">Nickelback</span>. É o seguimento do multi-platinado <span class="Span1">All the Right Reasons</span>. <span class="Span1">Dark Horse</span> vendeu <span class="Span2">trezentos e vinte e seis exemplares na sua primeira semana</span> e estreou-se em segundo lugar nos Estados Unidos. Mais de um ano após o seu lançamento, o álbum não saiu do Top Cem da Billboard Duzentos. O álbum passou cento e vinte e cinco semanas consecutivas dentro da Billboard Duzentos. É também o <span class="Span2">quarto álbum consecutivo da banda</span> a vender <span class="Span1">Multi-Platina</span> nos Estados Unidos. O álbum <span class="Span2">originalmente seria intitulado</span> <span class="Span1">Burn It To The Ground</span>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="Disc" src="Pictures/Here_And_Now.jpeg" alt="Capa Album Here and Now" title="Capa Album Here and Now">
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna Linha"> Lançamento: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Linha Ult_Col"> Vinte e um de Novembro de dois mil e onze </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Spotify <i class="fa-brands fa-spotify"></i> Link: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://open.spotify.com/album/2gMWwDIxxGIiblnv1pQHyd" target="_blank"> Abrir Spotify </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Mais Informações: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://en.wikipedia.org/wiki/Here_and_Now_(Nickelback_album)" target="_blank"> Wikipedia </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="Descricao_Album Ult_Col"><span class="Span1">Here and Now</span> é o sétimo álbum de estúdio da banda de rock canadiana <span class="Span1">Nickelback</span>, e <span class="Span2">é o último a ser lançado</span> pela <span class="Span1">Roadrunner Records</span>. A capa do álbum apresenta o <span class="Span1">Gastown Steam Clock</span> de Vancouver. O relógio está marcado para as onze e vinte e um, a data em que o álbum foi lançado. O álbum <span class="Span2">estreou em segundo lugar</span> na Billboard Duzentos dos EUA, depois de vender cerca de <span class="Span2">duzentos e vinte e sete mil cópias na primeira semana</span>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="Disc" src="Pictures/No_Fixed_Address.jpeg" alt="Capa Album No Fixed Address" title="Capa Album No Fixed Address">
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna Linha"> Lançamento: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Linha Ult_Col"> Catorze de Novembro de dois mil e catorze </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Spotify <i class="fa-brands fa-spotify"></i> Link: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://open.spotify.com/album/2mepXKJlgU28VBwkSXjWfY" target="_blank"> Abrir Spotify </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Mais Informações: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://en.wikipedia.org/wiki/No_Fixed_Address_(album)" target="_blank"> Wikipedia </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="Descricao_Album Ult_Col"><span class="Span1">No Fixed Address</span> é o oitavo álbum de estúdio da banda de rock canadiana <span class="Span1">Nickelback</span>, que conta com a participação do rapper americano <span class="Span1">Flo Rida</span> e foi lançado através da <span class="Span1">Republic Records</span>. O álbum foi precedido pelo <span class="Span2">single principal</span> "<span class="Span1">Edge of a Revolution</span>". O álbum marca uma mudança notável no som da banda, combinando o seu habitual som pós-grunge e hard rock com elementos de dance-pop e eletrónica. Este também é o primeiro e provavelmente único lançamento da banda na <span class="Span1">Republic Records</span>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="Disc" src="Pictures/Feed_The_Machine.jpeg" alt="Capa Album Feed the Machine" title="Capa Album Feed the Machine">
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna Linha"> Lançamento: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Linha Ult_Col"> Dezaseis de Junho de dois mil e dezasete </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Spotify <i class="fa-brands fa-spotify"></i> Link: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://open.spotify.com/album/4FYvuWhNshZBsOT0fptzR3" target="_blank"> Abrir Spotify </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Mais Informações: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://en.wikipedia.org/wiki/Feed_the_Machine" target="_blank"> Wikipedia </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="Descricao_Album Ult_Col"><span class="Span1">Feed the Machine</span> é o nono álbum de estúdio da banda de rock canadiana <span class="Span1">Nickelback</span>. É o primeiro lançamento da banda através da gravadora <span class="Span1">BMG</span>. <span class="Span1">Feed the Machine</span> estreou em <span class="Span2">quinto lugar</span> na Billboard Duzentos dos EUA com quarenta e sete mil unidades equivalentes a álbum, das quais quarenta e três mil foram vendas de álbuns puros. Estreou em <span class="Span2">terceiro lugar</span> no <span class="Span1">Reino Unido</span>, tornando-se o álbum de maior estreia da carreira da banda nesse país. Mais tarde, foi certificado <span class="Span1">Prata</span> pelo <span class="Span1">BPI</span> por vendas superiores a sessenta mil cópias.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="Disc" src="Pictures/Get_Rollin.png" alt="Capa Album Get Rollin" title="Capa Album Get Rollin">
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna Linha"> Lançamento: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Linha Ult_Col"> Dezoito de Novembro de dois mil e vinte e dois </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Spotify <i class="fa-brands fa-spotify"></i> Link: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://open.spotify.com/album/660c34OZzJ4gUd0rXe8ARp" target="_blank"> Abrir Spotify </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="Descricao_Album Coluna"> Mais Informações: </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="Descricao_Album Ult_Col"><a class="Album" href="https://en.wikipedia.org/wiki/Get_Rollin%27" target="_blank"> Wikipedia </a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="Descricao_Album Ult_Col"><span class="Span1">Get Rollin'</span> é o décimo álbum de estúdio da banda de rock canadiana <span class="Span1">Nickelback</span>. O single principal do álbum, "<span class="Span1">San Quentin</span>", foi lançado a sete de setembro de dois mil e vinte e dois, acompanhado por um lyric video oficial. A doze de maio de dois mil e vinte e três, os <span class="Span1">Nickelback</span> anunciaram que uma edição deluxe expandida do álbum seria lançada a três de junho do mesmo ano, com uma capa azul alternativa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row Nome_Cabeçalho" id="Contacto_Header">
+                <div class="col-sm-12">
+                    <h2> Contactos </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="Dado_Contacto"><span class="Cabecalho"> Morada: </span><br><span class="Conteudo">Burleson Road, Suite H<br>Austin Texas, USA</span></p>
+                </div>
+                <div class="col-sm-3">
+                    <p class="Dado_Contacto"><span class="Cabecalho"> Enviar e-mail: </span><br><a id="Mailto" href="mailto:customercare@mainfactorcommerce.com"><span class="Conteudo">NickelBack Email</span></a></p>
+                </div>
+                <div class="col-sm-3">
+                    <p class="Dado_Contacto"><span class="Cabecalho"> Redes Sociais: </span></p>
+                    <a class="Redes_Sociais" href="https://www.facebook.com/Nickelback" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="Redes_Sociais" href="https://www.instagram.com/nickelback/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="Redes_Sociais" href="https://twitter.com/nickelback" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a class="Redes_Sociais" href="https://open.spotify.com/artist/6deZN1bslXzeGvOLaLMOIF" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                </div>
+                <div class="col-sm-3">
+                    <p class="Dado_Contacto"><span class="Cabecalho"> Enviar Mensagem: </span></p>
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-6">
+                          <input type="text" class="form-control" id="validationCustom01" value="Nome ..." required>
+                        </div>
+                        <div class="col-6">
+                          <input type="email" class="form-control" id="validationCustom02" value="Email ..." required>
+                        </div>
+                        <div class="col-md-12">
+                          <input type="text" class="form-control" id="validationCustom03" value="Mensagem ..." required>
+                        </div>
+                        <div class="col-3">
+                          <button class="btn btn-primary" type="submit">Enviar</button>
+                        </div>
+                        <div class="col-3">
+                            <button class="btn btn-primary" type="reset">Apagar</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    </body>
+</html>
